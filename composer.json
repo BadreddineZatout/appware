@@ -1,0 +1,38 @@
+{
+  "name": "appware/appware",
+  "description": "A tidy PHP framework",
+  "keywords": ["appware", "php", "micro", "framework"],
+  "version": "2.0.7",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ramzi HABIB",
+      "email": "ramzi.hb@gmail.com"
+    }
+  ],
+  "repositories": [{
+    "type": "vcs",
+    "url": "https://github.com/binaryage/firelogger.php.git"
+  }],
+  "require": {
+    "illuminate/container": "v5.2.*",
+    "league/event": "v2.1.2",
+    "klein/klein": "v2.1.0",
+    "illuminate/database": "v5.2.*",
+    "illuminate/cache": "v5.2.*",
+    "watson/rememberable": "v1.0.2",
+    "vlucas/valitron": "v1.2.*",
+    "anahkiasen/former": "v4.0.*",
+    "monolog/monolog": "v1.18.1",
+    "filp/whoops": "v2.1.0",
+    "cartalyst/sentinel": "v2.0.9",
+    "jenssegers/mongodb": "v2.3.5",
+    "phpmailer/phpmailer": "v5.2.14",
+    "binaryage/firelogger": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "AppWare\\": "src/AppWare/"
+    }
+  }
+}
